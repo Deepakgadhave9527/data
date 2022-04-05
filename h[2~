@@ -1,0 +1,183 @@
+[33mcommit 3ca826b6a7eb04673d6fecb0b2542aa72ad7c4f4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Deepakgadhave9527 <deepak.gadhave957@gmail.com>
+Date:   Tue Apr 5 17:09:06 2022 +0530
+
+    add desktop data
+
+[1mdiff --git a/chrome-mdpkiolbdkhdjpekfbkbmhigcaggjagi-Default.desktop b/chrome-mdpkiolbdkhdjpekfbkbmhigcaggjagi-Default.desktop[m
+[1mnew file mode 100755[m
+[1mindex 0000000..ef3a668[m
+[1m--- /dev/null[m
+[1m+++ b/chrome-mdpkiolbdkhdjpekfbkbmhigcaggjagi-Default.desktop[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m#!/usr/bin/env xdg-open[m
+[32m+[m[32m[Desktop Entry][m
+[32m+[m[32mVersion=1.0[m
+[32m+[m[32mTerminal=false[m
+[32m+[m[32mType=Application[m
+[32m+[m[32mName=Google Chat[m
+[32m+[m[32mExec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=mdpkiolbdkhdjpekfbkbmhigcaggjagi[m
+[32m+[m[32mIcon=chrome-mdpkiolbdkhdjpekfbkbmhigcaggjagi-Default[m
+[32m+[m[32mStartupWMClass=crx_mdpkiolbdkhdjpekfbkbmhigcaggjagi[m
+[1mdiff --git a/new.js b/new.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9631027[m
+[1m--- /dev/null[m
+[1m+++ b/new.js[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mconst obj={[m
+[32m+[m[32m    name:"obj1",[m
+[32m+[m[32m    child:{}[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mam i selected for scala technology ?[m
+[32m+[m
+[32m+[m[32m then now i am starting  learnig  scala[m[41m [m
+\ No newline at end of file[m
+[1mdiff --git a/test.html b/test.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..858f78f[m
+[1m--- /dev/null[m
+[1m+++ b/test.html[m
+[36m@@ -0,0 +1,114 @@[m
+[32m+[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Document</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m[32m    <h3>hi</h3>[m
+[32m+[m[32m    <script>[m
+[32m+[m
+[32m+[m[32m// function hello(name){[m
+[32m+[m[32m//     let pharse=`Hello ${name}`;[m
+[32m+[m
+[32m+[m[32m// say(pharse)[m
+[32m+[m
+[32m+[m[32m// };[m
+[32m+[m[32m// function say (pharse){[m
+[32m+[m[32m//     alert(pharse)[m
+[32m+[m[32m// }[m
+[32m+[m[32m// hello("john")[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// let user = {[m
+[32m+[m[32m//   name: "John",[m
+[32m+[m[32m//   age: 30[m
+[32m+[m[32m// };[m
+[32m+[m[32m// let key ="key value"[m
+[32m+[m[32m// user.key = prompt("What do you want to know about the user?", "name");[m
+[32m+[m
+[32m+[m[32m// access by variable[m
+[32m+[m[32m// alert( user.key ); // John (if enter "name")[m
+[32m+[m[32m// user[key]=true[m
+[32m+[m[32m// user[key]=true[m
+[32m+[m[32m// console.log(user);[m
+[32m+[m
+[32m+[m[32m// const makeShort=(name,age)=>{[m
+[32m+[m[32m//     return{[m
+[32m+[m[32m//         name,[m
+[32m+[m[32m//         age,[m
+[32m+[m[32m//     }[m
+[32m+[m[32m// }[m
+[32m+[m[32m// let users= makeShort("nick",25)[m
+[32m+[m[32m// console.log(users);[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// let user = {[m
+[32m+[m[32m//   name: "John singh",[m
+[32m+[m[32m//   age: 30,[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m//   sayHI(){[m
+[32m+[m[32m//       return this.name[m
+[32m+[m[32m//   }[m
+[32m+[m[32m// };[m
+[32m+[m[32m// console.log(user.sayHI());[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// function sayHi2() {[m
+[32m+[m[32m//   console.log( this );[m
+[32m+[m[32m// }[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// sayHi2()[m
+[32m+[m
+[32m+[m[32m// const sayHi3 =()=>{[m
+[32m+[m[32m//     console.log( this );[m
+[32m+[m[32m//   alert(this)[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// }[m
+[32m+[m[32m// sayHi3()[m
+[32m+[m
+[32m+[m[32m// let user2 = { name: "John" };[m
+[32m+[m
+[32m+[m[32m// let admin = user2; // copy the reference[m
+[32m+[m[32m// admin.name="pet"[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// console.log(user2);[m[41m [m
+[32m+[m[32m// console.log(admin);[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// const prompt =prompt("enter string")[m
+[32m+[m
+[32m+[m[32m// const str ="dee-pak-wad-ll";[m
+[32m+[m
+[32m+[m[32m// for(let i=0;i<str.length;i++){[m
+[32m+[m[32m//     console.log(str.charAt(i)==" ");[m
+[32m+[m
+[32m+[m[32m// }[m
+[32m+[m[32m// const str2 = str.replace(/ /g,"-")[m
+[32m+[m[32m// console.log(str2);[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[41m        [m
+[32m+[m[32m    </script>[m
+[32m+[m[41m    [m
+[32m+[m[41m    [m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/test.js b/test.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..12cf143[m
+[1m--- /dev/null[m
+[1m+++ b/test.js[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32mconst fruits = ["Banana", "Orange", "Apple", "Mango", 1, 2, 3];[m
+[32m+[m
+[32m+[m[32m// fruits.splice(2,3,"frr")[m
+[32m+[m[32mconst i = fruits.indexOf("Apple");[m
+[32m+[m
+[32m+[m[32mconst fruitsRemoved = fruits.filter((val) => {[m
+[32m+[m[32m    return val !== "Apples" && val !== "Orange"[m
+[32m+[m[32m})[m
+[32m+[m[32m// const newArr= [...fruits.splice(0,i+1),"new fruits",...fruits.splice(1)][m
+[32m+[m[32mconsole.log(fruitsRemoved);[m
+[32m+[m
+[32m+[m[32mconst updatesArr= fruits.map((val)=>{[m
+[32m+[m[32m    return val==2 || val==1 ?val*2:val;[m
+[32m+[m[32m})[m
+[32m+[m[32mconsole.log(updatesArr);[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
