@@ -1,4 +1,5 @@
 const fruits = ["Banana", "Orange", "Apple", "Mango", 1, 2, 3];
+const fruitss= ["Banana", "Orange", "Apple", "Mango", 1, 2, 3];
 
 // fruits.splice(2,3,"frr")
 const i = fruits.indexOf("Apple");
