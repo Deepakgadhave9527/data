@@ -9,8 +9,6 @@ const fruitsRemoved = fruits.filter((val) => {
 })
 // const newArr= [...fruits.splice(0,i+1),"new fruits",...fruits.splice(1)]
 console.log(fruitsRemoved);
-console.log(fruitsRemoved);
-console.log(fruitsRemoved);
 
 
 const updatesArr= fruits.map((val)=>{
